@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    
+</head>
+
+
+<html>
+
+<body>
+
+
 <?php include("headnav.html");?>
 
 <div id="calendar"></div>
@@ -363,6 +378,6 @@
 
 <hr class="solid">
 
-
+</body>
 <?php include("footer.html")?>
 

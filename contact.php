@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    
+</head>
+
+
+<html>
+
+<body>
+
+
 <?php include("headnav.html")?>
 
 
@@ -344,7 +359,7 @@
 
    </div>
 
-
+</body>
 
 <?php include("footer.html")?>
 
