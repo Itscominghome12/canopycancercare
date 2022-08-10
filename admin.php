@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
 #customers {
   font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +31,6 @@
 </head>
     <body>
 
-<h1>A Fancy Table</h1>
 
 <table id="customers">
   <tr>
@@ -54,7 +54,8 @@
   ?>     
 
   <tr>
-    <td><?php print "$pageID"; ?></td>
+    <td><?php print "$pageID"; ?>
+      <a href='edit_page.php?id=<?php print $pageID; ?>'>Edit</a></td>
     <td><?php print "$title1"; ?></td>
     <td><?php print "$img1"; ?></td>
   </tr>
