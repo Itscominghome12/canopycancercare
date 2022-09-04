@@ -363,6 +363,24 @@
 
 <hr class="solid">
 
+    
+   <h2>Data</h2> 
+    
+    
+    
+    
+    
+    
+    <hr class="solid">
+
+    
+<h2>Location</h2>
+    
+    <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.481488355833!2d176.14701041518197!3d-37.70837463579291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dda4c04b271bf%3A0x86966e25ea9ec1b7!2sCanopy%20Cancer%20Care%20Tauranga!5e0!3m2!1sen!2snz!4v1661903344496!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+       
+
 
 <?php include("footer.html")?>
 
