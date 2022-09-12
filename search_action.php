@@ -1,13 +1,12 @@
-<?php include("setup.php");?>
+<!DOCTYPE html>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Search</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
     <?php
+    include("setup.php");
 	$query = $_GET['query']; 
 	// gets value sent over search form
 	
@@ -15,16 +14,18 @@
 	// you can set minimum length of the query if you want
 	
 	if(strlen($query) >= $min_length){ // if query length is more or equal minimum length then
-		
+
 		$query = htmlspecialchars($query); 
 		// changes characters used in html to their equivalents, for example: < to &gt;
-		
+			
 		$query = mysql_real_escape_string($query);
 		// makes sure nobody uses SQL injection
-		
+			print $query; exit;	
 		$raw_results = mysql_query("SELECT * FROM patient details
-			WHERE (`title` LIKE '%".$query."%') OR (`text` LIKE '%".$query."%')") or die(mysql_error());
+			WHERE (`name` LIKE '%".$query."%') OR (`surname` LIKE '%".$query."%')") or die(mysql_error());
 			
+        print_r($raw_results);
+        exit;
 		// * means that it selects all fields, you can also write: `id`, `title`, `text`
 		// articles is the name of our table
 		
@@ -37,7 +38,7 @@
 			while($results = mysql_fetch_array($raw_results)){
 			// $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
 			
-				echo "<p><h3>".$results['title']."</h3>".$results['text']."</p>";
+				echo "<p><h3>".$results['name']."</h3>".$results['surname']."</p>";
 				// posts results gotten from database(title and text) you can also show id ($results['id'])
 			}
 			

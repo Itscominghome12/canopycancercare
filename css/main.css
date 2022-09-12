@@ -197,6 +197,8 @@ display: block;
   margin: 0 auto;
   height: 570px;
   overflow: hidden;
+    float: left;
+    
 }
 
 .header {

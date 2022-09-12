@@ -1,5 +1,4 @@
-
-				<?php
+<?php
 session_start();
 // Change this to your connection info.
 
@@ -51,6 +50,6 @@ if ($stmt = $conn->prepare('SELECT id, password,admin FROM accounts WHERE userna
 
 
 	$stmt->close();
-}
+
 ?>
 		

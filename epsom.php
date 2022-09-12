@@ -380,20 +380,40 @@
     
     </script>
 
-<hr class="solid">
-    
-   <h2>Data</h2> 
     
     
-    
-    
-    
-    
-    <hr class="solid">
+  <style>
+.textbox {
+  background-color: #fff;
+  width: 600px;
+    height: 555x;
+  border: 15px solid #1A59AA;
+  padding: 50px;
+  margin: 20px;
+    float: right;
+}
+</style>
+
+<div class="textbox">
+<h2>How to use the calendar</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+    <p>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 
     
-<h2>Location</h2>
     
+    
+    
+
+    
+    
+    
+    
+    
+    
+   
     <div class="location">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.7111425918692!2d174.7677776151529!3d-36.87333238858766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47d70292cb7b%3A0x82a878d7ea73398b!2sCanopy%20Cancer%20Care%20Epsom!5e0!3m2!1sen!2snz!4v1661902224787!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
