@@ -361,10 +361,7 @@
     
     </script>
 
-<hr class="solid">
 
-    
-   <h2>Data</h2> 
     
     
     

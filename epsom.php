@@ -17,7 +17,7 @@
     
     
     
-    <h2>Calendar</h2>
+   
     
 <div id="calendar"></div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
@@ -387,8 +387,9 @@
 
 
     
-      
-    
+          <hr class="solid">
+        
+<h2>Location</h2>
     
    
     <div class="location">
