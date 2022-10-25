@@ -38,7 +38,7 @@
   </tr>
   <tr>
     <td>Tauranga</td>
-    <td>Regional Manager - Jesse Attwood</td>
+    <td>Regional Manager - Mātua Waiheke</td>
     <td><a href="tel:123-456-7890">123-456-7890</a></td>
   </tr>
   <tr>
