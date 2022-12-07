@@ -195,9 +195,11 @@ display: block;
   transform: translate3d(0, 0, 0);
   width: 420px;
   margin: 0 auto;
-  height: 570px;
+  height: 600px;
   overflow: hidden;
     float: left;
+    padding-top: 30px; 
+
     
 }
 
@@ -687,6 +689,27 @@ text-align: center;
 
 
 /* The dropdown container */
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
 .dropdown {
   float: left;
   overflow: hidden;
